@@ -18,7 +18,7 @@ namespace Proyec.ListaSimple
             this.ultimo = null;
         }
 
-        // Si "primero" no apunta a nadie, no hay clientes
+        // Si "primero" no apunta a nadie no hay clientes
         public bool ListaVacia()
         {
             return this.primero == null;
